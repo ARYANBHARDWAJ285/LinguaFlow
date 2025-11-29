@@ -17,16 +17,4 @@ LinguaFlow is a voice-first AI Agent that acts as a supportive, non-judgmental E
 3.  **The Brain:** **Google Gemini 1.5 Flash API** handles conversation & grammar logic.
 4.  **Audio Out:** `gTTS` (Google Text-to-Speech) converts AI text to speech.
 
-## 🚀 Setup Instructions
-1.  Clone the repository.
-2.  Install dependencies:
-    ```bash
-    pip install streamlit streamlit-mic-recorder google-generativeai gtts
-    ```
-3.  **API Key Setup:**
-    * Open `main.py`.
-    * Paste your Google Gemini API Key in line 11.
-4.  Run the App:
-    ```bash
-    streamlit run main.py
-    ```
+
